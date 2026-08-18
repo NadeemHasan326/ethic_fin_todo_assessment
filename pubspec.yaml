@@ -1,0 +1,53 @@
+name: ethic_fin_todo_assessment
+description: "Task Manager App - Ethic Financial Assessment"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^3.12.1
+  cloud_firestore: ^5.6.7
+
+  # Local Storage
+  hive_flutter: ^1.1.0
+
+  # State Management
+  flutter_bloc: ^9.1.1
+
+  # Dependency Injection
+  get_it: ^8.0.3
+  injectable: ^2.5.0
+
+  # Network
+  connectivity_plus: ^6.1.4
+
+  # Utils
+  intl: ^0.20.2
+  uuid: ^4.5.1
+  google_fonts: ^6.2.1
+  talker: ^4.5.2
+  talker_flutter: ^4.5.2
+  talker_bloc_logger: ^4.5.2
+  shimmer: ^3.0.0
+  flutter_screenutil: ^5.9.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/ethicfin_icon.png
+    - assets/task_clipboard.png
+    - assets/empty_tasks.png

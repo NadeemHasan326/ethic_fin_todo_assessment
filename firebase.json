@@ -1,0 +1,33 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "ethic-fin-todo-assessment",
+          "appId": "1:700124985065:android:b53fa6c9c1e91e145ee278",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "ethic-fin-todo-assessment",
+          "appId": "1:700124985065:ios:cab56cdfe6c5d1565ee278",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "ethic-fin-todo-assessment",
+          "configurations": {
+            "android": "1:700124985065:android:b53fa6c9c1e91e145ee278",
+            "ios": "1:700124985065:ios:cab56cdfe6c5d1565ee278"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules"
+  }
+}
